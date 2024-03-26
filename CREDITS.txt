@@ -1,24 +1,3 @@
-SODA CAN (MOUNTAIN DEW)
-  https://sketchfab.com/3d-models/soda-can-c63a465fc3fc4b5dac6bf385bd954c2c
-
-COKE CAN
-  https://sketchfab.com/3d-models/coke-can-0ccc58bd9c2242a680a92801d7fe6bbc
-
-PIZZA
-  https://sketchfab.com/3d-models/pizza-33ed7a16d6654c4fa661c82830d7dba2
-
-PIZZA BOX BLANK
-  https://sketchfab.com/3d-models/pizza-box-blank-d589d532b2f64855be79403cfa0bf373
-
-BITTEN PIZZA
-  https://sketchfab.com/3d-models/bitten-pizza-e6eb4d029b9e4b65b993b84c88cfbf54
-
-PLAIN PIZZA SLICE
-  https://sketchfab.com/3d-models/plain-pizza-slice-486238438ec64c3cb64d607a30d1a9e6
-
-TRASH CAN
-  https://sketchfab.com/3d-models/trash-can-a65eb3a1b6f149d7a78f7f44e80c7627
-
 WOOD FLOOR TEXTURE
   https://polyhaven.com/a/wood_floor
   Wood Floor Texture, Dimitrios Savva, CC0

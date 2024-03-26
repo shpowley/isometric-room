@@ -15,16 +15,16 @@ const TONE_MAPPING_OPTIONS = {
 }
 
 const CAMERA_DEFAULTS = {
-  fov: 45,
+  fov: 20,
   near: 0.5,
   far: 60,
-  position: [5.2, 1.5, 5.0],
+  position: [13.0, 8.0, 12.0],
   look_at: [0, 1, 0],
   leva_min_max: 100
 }
 
 const LIGHTING_DEFAULTS = {
-  ambient_intensity: 0.5,
+  ambient_intensity: 0.8,
   ambient_color: '#ffffff',
 
   directional_intensity: 1.0,

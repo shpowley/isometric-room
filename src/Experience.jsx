@@ -377,7 +377,7 @@ const Experience = () => {
       autoRotate={true}
       autoRotateSpeed={0.1}
       enablePan={false}
-      maxDistance={10}
+      maxDistance={20}
       minPolarAngle={Math.PI * 0.25}
       maxPolarAngle={Math.PI * 0.75}
       dampingFactor={0.01}

@@ -31,19 +31,18 @@ useGLTF.preload(FILE)
 // 0 VALUE IS ORTHOGONAL, BUT VISUALLY DOESN'T WORK
 const DOT_THRESHOLDS = {
   WALLS: {
-    visible: -0.245,
-    hidden: -0.265
+    visible: -0.12,
+    hidden: -0.135
   },
 
   FLOOR: {
-    // visible: -0.14,
-    visible: -0.1,
-    hidden: -0.16
+    visible: -0.045,
+    hidden: -0.06
   },
 
   CEILING: {
-    visible: -0.20,
-    hidden: -0.22
+    visible: -0.07,
+    hidden: -0.085
   }
 }
 
@@ -241,7 +240,7 @@ const IsometricRoom = props => {
 
 
   // --- DYNAMIC VISIBILITY: LOGIC --
-  const helperCheckVisible = ({ direction, material, geometries, visible_thresholds, name }) => {
+  const helperCheckVisible = ({ direction, material, geometries, visible_thresholds }) => {
     dot_product = direction.dot(DIRECTION.camera)
 
     geometry_opacity = dot_product > visible_thresholds.visible
@@ -290,7 +289,8 @@ const IsometricRoom = props => {
       direction: DIRECTION.floor,
       material: dynamic_material.floor,
       geometries: [refs.visible.floor, refs.visible.pc_fan],
-      visible_thresholds: DOT_THRESHOLDS.FLOOR
+      visible_thresholds: DOT_THRESHOLDS.FLOOR,
+      name: 'floor'
     })
 
     helperCheckVisible({

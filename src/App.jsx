@@ -5,6 +5,7 @@ import { Leva, useControls } from "leva"
 import Experience from "./Experience"
 import { parameterEnabled } from "./common/Utils"
 import { CAMERA_DEFAULTS, LEVA_SORT_ORDER, TONE_MAPPING_OPTIONS } from "./common/Constants"
+import Footer from "./components/Footer"
 
 // LEVA DEBUG
 const debug_enabled = parameterEnabled('DEBUG') || parameterEnabled('debug')
@@ -54,7 +55,7 @@ const App = () => {
       }}
 
       shadows={{
-        enabled: true,
+        enabled: false,
         type: THREE.PCFSoftShadowMap
       }}
 
@@ -67,6 +68,8 @@ const App = () => {
     >
       <Experience />
     </Canvas>
+
+    <Footer />
   </>
 }
 
