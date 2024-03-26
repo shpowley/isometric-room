@@ -15,3 +15,14 @@ BITTEN PIZZA
 
 PLAIN PIZZA SLICE
   https://sketchfab.com/3d-models/plain-pizza-slice-486238438ec64c3cb64d607a30d1a9e6
+
+TRASH CAN
+  https://sketchfab.com/3d-models/trash-can-a65eb3a1b6f149d7a78f7f44e80c7627
+
+WOOD FLOOR TEXTURE
+  https://polyhaven.com/a/wood_floor
+  Wood Floor Texture, Dimitrios Savva, CC0
+
+3D ORIGAMI CRANE
+  https://sketchfab.com/3d-models/3d-origami-crane-38fe6bfec0664af3b7660b2d18cfaf94
+  "3D Origami crane" (https://skfb.ly/m5lih20ba) by JuanG3D is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

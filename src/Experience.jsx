@@ -7,7 +7,7 @@ import { useControls, folder } from 'leva'
 import { useStateGame } from './state/useStateGame'
 import { parameterEnabled } from './common/Utils'
 import { CAMERA_DEFAULTS, LEVA_SORT_ORDER, LIGHTING_DEFAULTS } from './common/Constants'
-import RoomTest from './components/RoomTest'
+import IsometricRoom from './components/IsometricRoom'
 
 // LEVA DEBUG
 const debug_enabled = parameterEnabled('DEBUG') || parameterEnabled('debug')
@@ -374,6 +374,14 @@ const Experience = () => {
       ref={ref_orbit_controls}
       target={CAMERA_DEFAULTS.look_at}
 
+      autoRotate={true}
+      autoRotateSpeed={0.1}
+      enablePan={false}
+      maxDistance={10}
+      minPolarAngle={Math.PI * 0.25}
+      maxPolarAngle={Math.PI * 0.75}
+      dampingFactor={0.01}
+
       onChange={() => {
         if (!debug_enabled) return
 
@@ -424,7 +432,7 @@ const Experience = () => {
       color={controls_lighting.ambient_color}
     />
 
-    <RoomTest />
+    <IsometricRoom />
   </>
 }
 

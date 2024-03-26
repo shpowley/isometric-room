@@ -18,8 +18,8 @@ const CAMERA_DEFAULTS = {
   fov: 45,
   near: 0.5,
   far: 60,
-  position: [13.5, 5.5, 13.5],
-  look_at: [0, 2.5, 0],
+  position: [5.2, 1.5, 5.0],
+  look_at: [0, 1, 0],
   leva_min_max: 100
 }
 
