@@ -1,13 +1,16 @@
 import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
 import { transformWithEsbuild } from 'vite'
+import restart from 'vite-plugin-restart'
 
-export default defineConfig({
+export default {
     root: 'src/',
     publicDir: '../public/',
     base: './',
     plugins:
     [
+        // Restart server on static/public file change
+        restart({ restart: [ '../public/**', ] }),
+
         // React support
         react(),
 
@@ -29,7 +32,7 @@ export default defineConfig({
     server:
     {
         host: true, // Open to local network and display URL
-        open: true
+        open: true,
     },
     build:
     {
@@ -39,4 +42,4 @@ export default defineConfig({
         minify: true, // Minify code
         target: 'esnext', // Use ESNext
     },
-  })
+}

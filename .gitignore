@@ -3,7 +3,6 @@ logs
 *.log
 
 ## DIRECTORIES
-dist
 node_modules
 design
 
@@ -12,5 +11,6 @@ design
 .vscode/*
 .idea
 package-lock.json
-NOTES.txt
 README.md
+NOTES.txt
+vite.config.js
